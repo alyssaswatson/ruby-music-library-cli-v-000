@@ -35,8 +35,10 @@ class MusicLibraryController
       puts "What would you like to do?"
       input = gets.strip
     elsif input == "exit"
-      
+    else
+      call
     end
+    
   end
 
   def valid_calls
