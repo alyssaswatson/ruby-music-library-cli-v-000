@@ -38,7 +38,7 @@ class MusicLibraryController
     else
       call
     end
-    
+
   end
 
   def valid_calls
