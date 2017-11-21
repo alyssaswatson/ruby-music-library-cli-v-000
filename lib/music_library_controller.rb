@@ -31,9 +31,6 @@ class MusicLibraryController
       list_genre
     elsif input == "play song"
       play_song
-    elsif input != "exit" || !valid_calls.include?(input)
-      puts "What would you like to do?"
-      input = gets.strip
     elsif input == "exit"
     else
       call
