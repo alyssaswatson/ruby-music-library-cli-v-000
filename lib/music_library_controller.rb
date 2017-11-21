@@ -34,6 +34,8 @@ class MusicLibraryController
     elsif input != "exit" || !valid_calls.include?(input)
       puts "What would you like to do?"
       input = gets.strip
+    elsif input == "exit"
+      
     end
   end
 
